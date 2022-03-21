@@ -1,0 +1,10 @@
+const person = {
+  name :"Guru"
+};
+
+const newPerson ={
+  ...person,
+  age : 28
+};
+
+console.log(newPerson);
