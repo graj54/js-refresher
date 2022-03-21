@@ -1,0 +1,16 @@
+//array destructuring
+const numbers = [1,2,3];
+[num1, num2] = numbers;
+
+console.log(num1,num2);
+
+[a1, , a3] = numbers;
+console.log(a1,a3);
+
+// object destructuring
+const obj={
+  name: 'Guru',
+  age: 28
+}
+
+{name} = {name:'Guru', age:28};
